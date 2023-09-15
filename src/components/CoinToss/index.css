@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  padding: 50px;
+}
+
+.coin-toss-game-container {
+  height: 450px;
+  width: 60%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #a35200;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.heads-or-tails {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.toss-image {
+  height: 150px;
+  width: 150px;
+}
+
+.toss-coin-button {
+  border: 0;
+  color: #a35200;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 16px;
+  background-color: #e2a139;
+  margin-top: 10px;
+}
+
+.result-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.result {
+  margin-right: 35px;
+}
